@@ -14822,6 +14822,8 @@ Sample point 2 predicted to be in Cluster 0
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong> We cannot assume the change affects all customers equally. Customers who spent less on Fresh, Milk and Grocery would react positively to the change in delivery service. Refering to the clusters result above, I think Segment 2 may react positively.</p>
+<p>To be more specific, we choose a subset (20%) of each segment to change the delivery service. Then, we evaluate the reaction of these customers using a float number range from -1 (absolutely negative) to 1 (absolutely positive). After taking the average of the number from each segment, we can see whether a segment overall reacts to the new delivery service positivly or negatively.</p>
+<p>By using A/B test on a subset of customers, the wholesale distributor can test their hypotheses without risking making a lot of customers angry (if they react negatively).</p>
 
 </div>
 </div>
